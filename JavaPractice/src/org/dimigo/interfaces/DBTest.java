@@ -18,10 +18,10 @@ package org.dimigo.interfaces;
 public class DBTest {
 
 	public static void main(String[] args) {
-		System.out.println("<< 변경전 >>");
+		System.out.println("<< 변경 전 >>");
 	crud(IDBManager.getDBObject("SYBASE"));
 		System.out.println();
-		System.out.println("<< 변경후 >>");
+		System.out.println("<< 변경 후 >>");
 		crud(IDBManager.getDBObject("ORACLE"));
 		System.out.println();
 	}
